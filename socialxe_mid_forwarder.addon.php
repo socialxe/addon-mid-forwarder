@@ -1,5 +1,5 @@
 <?php
-	if(!defined("__ZBXE__")) exit();
+	if(!defined('__ZBXE__') && !defined('__XE__')) exit();
 
 	if($called_position != 'before_module_init') return;
 	if(Context::getResponseMethod() != "HTML") return;
